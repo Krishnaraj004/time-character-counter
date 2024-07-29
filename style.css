@@ -1,0 +1,36 @@
+*{
+}
+.form{
+    border: 1px solid rgb(48, 160, 175);
+    width: 450px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(48, 160, 175);
+    box-shadow: 1px 2px 2px rgb(48, 160, 175);
+}
+.form textarea{
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 3px;
+}
+.inner{
+    display: flex;
+}
+.form .inner #en{
+    margin-left: 160px;
+    margin-top: 50px;
+}
+.form .inner #st{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+textarea::placeholder{
+    font-size: 16px;
+}
+p{
+    font-size: 18px;
+}
